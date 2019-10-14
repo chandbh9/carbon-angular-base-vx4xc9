@@ -1,0 +1,65 @@
+<!-- <hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<button ibmButton>hi</button> -->
+<div class="bx--grid requestFormContainer" style="padding-top: 6%;">
+  <div class="bx--row ds-pad-t-1  ds-mar-l-1">
+    <h2 class="bx--type-semibold bx--data-table-header__title">GBS Canada Landed Exception Request Form</h2>
+  </div>
+  <div class="bx--row ds-pad-t-1  ds-mar-l-1">
+   
+  </div>
+  <div class="bx--row ds-pad-t-1 ds-mar-b-2 ds-mar-l-1">
+    <div ><span>Status Comment: </span> <strong> Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry</strong></div>
+  </div>
+
+  <div >
+    <ibm-tabs [followFocus]="followFocus" [isNavigation]="isNavigation">
+      <ibm-tab heading="Employee Details">
+        <!-- <app-emp-details ></app-emp-details> -->
+        hello
+      </ibm-tab>
+      <!-- <ibm-tab heading="Client Information"> [requestResumeName]="requestResumeName" [resumeOfUrl]="resumeOfUrl" [empForm]="empForm" [empSubmit]="empSubmit" [resumeFlag]="resumeFlag"
+        <app-client-information [canEdit]="canEdit" [loadedData]="loadedData" [clientForm]="clientForm" [clientSubmit]="clientSubmit"></app-client-information>
+      </ibm-tab>
+       <ibm-tab heading="Assignment Details">
+        <app-assignment-details [canEdit]="canEdit" [loadedData]="loadedData" [assignmentForm]="assignmentForm" [endDateinvalid]="endDateinvalid" [invalid]="invalid" [startDateinvalid]="startDateinvalid"  [assignmentSubmit]="assignmentSubmit"></app-assignment-details>
+      </ibm-tab>
+     
+      <ibm-tab heading="Request Details">
+          <app-request-detail [canEdit]="canEdit" [checkboxInvalid]="checkboxInvalid" [loadedData]="loadedData" [business_justification]="business_justification"  [requestForm]="requestForm"  [requestSubmit]="requestSubmit"></app-request-detail>
+      </ibm-tab>
+      <div *ngIf="exceptionTab">
+     <ibm-tab heading="Exception Approval Request">
+        <app-exception-request [canEdit]="canEdit" [loadedData]="loadedData" [exceptionForm]="exceptionForm" [exceptionSubmit]="exceptionSubmit"></app-exception-request>
+      </ibm-tab>
+    </div>
+    
+       -->
+    </ibm-tabs>
+  </div>
+  
+  <div class="bx--row ">
+   
+    <div class="bx--col-sm-12 bx--col-md-4 bx--col-lg-4 ds-mar-b-1">
+       
+
+       
+          
+            
+         
+  
+            <button id="cancelBtn" class="cancelbtn"  (click)="cancelForm($event)"> Cancel </button>
+            <button id="saveBtn" (click)="savingAsDraft()"  class="savebtn"> Save as Draft </button>
+            <button id="submitBtn" (click)="onSubmit()"  class="submitbtn"> Submit </button>
+
+           
+
+    </div>
+  </div>
+  
+</div>
+
